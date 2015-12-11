@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A32CD91C1AECE100596104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CD81C1AECE100596104 /* main.m */; };
+		12A32CDC1C1AECE100596104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CDB1C1AECE100596104 /* AppDelegate.m */; };
+		12A32CDF1C1AECE100596104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CDE1C1AECE100596104 /* ViewController.m */; };
+		12A32CE21C1AECE100596104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A32CE01C1AECE100596104 /* Main.storyboard */; };
+		12A32CE41C1AECE100596104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A32CE31C1AECE100596104 /* Assets.xcassets */; };
+		12A32CE71C1AECE100596104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A32CE51C1AECE100596104 /* LaunchScreen.storyboard */; };
+		12A32CF21C1AECE100596104 /* SuperLinAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CF11C1AECE100596104 /* SuperLinAlertViewDemoTests.m */; };
+		12A32CFD1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CFC1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A32CEE1C1AECE100596104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A32CCC1C1AECE100596104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A32CD31C1AECE100596104;
+			remoteInfo = SuperLinAlertViewDemo;
+		};
+		12A32CF91C1AECE100596104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A32CCC1C1AECE100596104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A32CD31C1AECE100596104;
+			remoteInfo = SuperLinAlertViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A32CD41C1AECE100596104 /* SuperLinAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperLinAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A32CD81C1AECE100596104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A32CDA1C1AECE100596104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12A32CDB1C1AECE100596104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12A32CDD1C1AECE100596104 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12A32CDE1C1AECE100596104 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12A32CE11C1AECE100596104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12A32CE31C1AECE100596104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12A32CE61C1AECE100596104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12A32CE81C1AECE100596104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A32CED1C1AECE100596104 /* SuperLinAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperLinAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A32CF11C1AECE100596104 /* SuperLinAlertViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperLinAlertViewDemoTests.m; sourceTree = "<group>"; };
+		12A32CF31C1AECE100596104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A32CF81C1AECE100596104 /* SuperLinAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperLinAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A32CFC1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperLinAlertViewDemoUITests.m; sourceTree = "<group>"; };
+		12A32CFE1C1AECE100596104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A32CD11C1AECE100596104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32CEA1C1AECE100596104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32CF51C1AECE100596104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A32CCB1C1AECE100596104 = {
+			isa = PBXGroup;
+			children = (
+				12A32CD61C1AECE100596104 /* SuperLinAlertViewDemo */,
+				12A32CF01C1AECE100596104 /* SuperLinAlertViewDemoTests */,
+				12A32CFB1C1AECE100596104 /* SuperLinAlertViewDemoUITests */,
+				12A32CD51C1AECE100596104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12A32CD51C1AECE100596104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A32CD41C1AECE100596104 /* SuperLinAlertViewDemo.app */,
+				12A32CED1C1AECE100596104 /* SuperLinAlertViewDemoTests.xctest */,
+				12A32CF81C1AECE100596104 /* SuperLinAlertViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A32CD61C1AECE100596104 /* SuperLinAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				12A32CDA1C1AECE100596104 /* AppDelegate.h */,
+				12A32CDB1C1AECE100596104 /* AppDelegate.m */,
+				12A32CDD1C1AECE100596104 /* ViewController.h */,
+				12A32CDE1C1AECE100596104 /* ViewController.m */,
+				12A32CE01C1AECE100596104 /* Main.storyboard */,
+				12A32CE31C1AECE100596104 /* Assets.xcassets */,
+				12A32CE51C1AECE100596104 /* LaunchScreen.storyboard */,
+				12A32CE81C1AECE100596104 /* Info.plist */,
+				12A32CD71C1AECE100596104 /* Supporting Files */,
+			);
+			path = SuperLinAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		12A32CD71C1AECE100596104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A32CD81C1AECE100596104 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12A32CF01C1AECE100596104 /* SuperLinAlertViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12A32CF11C1AECE100596104 /* SuperLinAlertViewDemoTests.m */,
+				12A32CF31C1AECE100596104 /* Info.plist */,
+			);
+			path = SuperLinAlertViewDemoTests;
+			sourceTree = "<group>";
+		};
+		12A32CFB1C1AECE100596104 /* SuperLinAlertViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12A32CFC1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m */,
+				12A32CFE1C1AECE100596104 /* Info.plist */,
+			);
+			path = SuperLinAlertViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A32CD31C1AECE100596104 /* SuperLinAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A32D011C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemo" */;
+			buildPhases = (
+				12A32CD01C1AECE100596104 /* Sources */,
+				12A32CD11C1AECE100596104 /* Frameworks */,
+				12A32CD21C1AECE100596104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperLinAlertViewDemo;
+			productName = SuperLinAlertViewDemo;
+			productReference = 12A32CD41C1AECE100596104 /* SuperLinAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A32CEC1C1AECE100596104 /* SuperLinAlertViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A32D041C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemoTests" */;
+			buildPhases = (
+				12A32CE91C1AECE100596104 /* Sources */,
+				12A32CEA1C1AECE100596104 /* Frameworks */,
+				12A32CEB1C1AECE100596104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A32CEF1C1AECE100596104 /* PBXTargetDependency */,
+			);
+			name = SuperLinAlertViewDemoTests;
+			productName = SuperLinAlertViewDemoTests;
+			productReference = 12A32CED1C1AECE100596104 /* SuperLinAlertViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A32CF71C1AECE100596104 /* SuperLinAlertViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A32D071C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemoUITests" */;
+			buildPhases = (
+				12A32CF41C1AECE100596104 /* Sources */,
+				12A32CF51C1AECE100596104 /* Frameworks */,
+				12A32CF61C1AECE100596104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A32CFA1C1AECE100596104 /* PBXTargetDependency */,
+			);
+			name = SuperLinAlertViewDemoUITests;
+			productName = SuperLinAlertViewDemoUITests;
+			productReference = 12A32CF81C1AECE100596104 /* SuperLinAlertViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A32CCC1C1AECE100596104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MrLin;
+				TargetAttributes = {
+					12A32CD31C1AECE100596104 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					12A32CEC1C1AECE100596104 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 12A32CD31C1AECE100596104;
+					};
+					12A32CF71C1AECE100596104 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 12A32CD31C1AECE100596104;
+					};
+				};
+			};
+			buildConfigurationList = 12A32CCF1C1AECE100596104 /* Build configuration list for PBXProject "SuperLinAlertViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A32CCB1C1AECE100596104;
+			productRefGroup = 12A32CD51C1AECE100596104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A32CD31C1AECE100596104 /* SuperLinAlertViewDemo */,
+				12A32CEC1C1AECE100596104 /* SuperLinAlertViewDemoTests */,
+				12A32CF71C1AECE100596104 /* SuperLinAlertViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A32CD21C1AECE100596104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32CE71C1AECE100596104 /* LaunchScreen.storyboard in Resources */,
+				12A32CE41C1AECE100596104 /* Assets.xcassets in Resources */,
+				12A32CE21C1AECE100596104 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32CEB1C1AECE100596104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32CF61C1AECE100596104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A32CD01C1AECE100596104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32CDF1C1AECE100596104 /* ViewController.m in Sources */,
+				12A32CDC1C1AECE100596104 /* AppDelegate.m in Sources */,
+				12A32CD91C1AECE100596104 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32CE91C1AECE100596104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32CF21C1AECE100596104 /* SuperLinAlertViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A32CF41C1AECE100596104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A32CFD1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A32CEF1C1AECE100596104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A32CD31C1AECE100596104 /* SuperLinAlertViewDemo */;
+			targetProxy = 12A32CEE1C1AECE100596104 /* PBXContainerItemProxy */;
+		};
+		12A32CFA1C1AECE100596104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A32CD31C1AECE100596104 /* SuperLinAlertViewDemo */;
+			targetProxy = 12A32CF91C1AECE100596104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12A32CE01C1AECE100596104 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A32CE11C1AECE100596104 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12A32CE51C1AECE100596104 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A32CE61C1AECE100596104 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A32CFF1C1AECE100596104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12A32D001C1AECE100596104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12A32D021C1AECE100596104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperLinAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12A32D031C1AECE100596104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperLinAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12A32D051C1AECE100596104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperLinAlertViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperLinAlertViewDemo.app/SuperLinAlertViewDemo";
+			};
+			name = Debug;
+		};
+		12A32D061C1AECE100596104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperLinAlertViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperLinAlertViewDemo.app/SuperLinAlertViewDemo";
+			};
+			name = Release;
+		};
+		12A32D081C1AECE100596104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperLinAlertViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperLinAlertViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12A32D091C1AECE100596104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperLinAlertViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperLinAlertViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A32CCF1C1AECE100596104 /* Build configuration list for PBXProject "SuperLinAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32CFF1C1AECE100596104 /* Debug */,
+				12A32D001C1AECE100596104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A32D011C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D021C1AECE100596104 /* Debug */,
+				12A32D031C1AECE100596104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A32D041C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D051C1AECE100596104 /* Debug */,
+				12A32D061C1AECE100596104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A32D071C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A32D081C1AECE100596104 /* Debug */,
+				12A32D091C1AECE100596104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A32CCC1C1AECE100596104 /* Project object */;
+}
