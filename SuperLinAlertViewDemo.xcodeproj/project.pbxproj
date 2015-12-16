@@ -10,11 +10,14 @@
 		12A32CD91C1AECE100596104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CD81C1AECE100596104 /* main.m */; };
 		12A32CDC1C1AECE100596104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CDB1C1AECE100596104 /* AppDelegate.m */; };
 		12A32CDF1C1AECE100596104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CDE1C1AECE100596104 /* ViewController.m */; };
-		12A32CE21C1AECE100596104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A32CE01C1AECE100596104 /* Main.storyboard */; };
 		12A32CE41C1AECE100596104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A32CE31C1AECE100596104 /* Assets.xcassets */; };
 		12A32CE71C1AECE100596104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A32CE51C1AECE100596104 /* LaunchScreen.storyboard */; };
 		12A32CF21C1AECE100596104 /* SuperLinAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CF11C1AECE100596104 /* SuperLinAlertViewDemoTests.m */; };
 		12A32CFD1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32CFC1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m */; };
+		12A32D0D1C1AED8900596104 /* bgImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12A32D0B1C1AED8900596104 /* bgImg.jpg */; };
+		12A32D0E1C1AED8900596104 /* 提示@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A32D0C1C1AED8900596104 /* 提示@2x.png */; };
+		12A32D141C1AED8F00596104 /* SuperLinAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D111C1AED8F00596104 /* SuperLinAlertView.m */; };
+		12A32D151C1AED8F00596104 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A32D131C1AED8F00596104 /* UIImage+Blur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 		12A32CDB1C1AECE100596104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		12A32CDD1C1AECE100596104 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		12A32CDE1C1AECE100596104 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		12A32CE11C1AECE100596104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12A32CE31C1AECE100596104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A32CE61C1AECE100596104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A32CE81C1AECE100596104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		12A32CF81C1AECE100596104 /* SuperLinAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperLinAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A32CFC1C1AECE100596104 /* SuperLinAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperLinAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		12A32CFE1C1AECE100596104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A32D0B1C1AED8900596104 /* bgImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgImg.jpg; sourceTree = "<group>"; };
+		12A32D0C1C1AED8900596104 /* 提示@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示@2x.png"; sourceTree = "<group>"; };
+		12A32D101C1AED8F00596104 /* SuperLinAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperLinAlertView.h; sourceTree = "<group>"; };
+		12A32D111C1AED8F00596104 /* SuperLinAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperLinAlertView.m; sourceTree = "<group>"; };
+		12A32D121C1AED8F00596104 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		12A32D131C1AED8F00596104 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,13 @@
 		12A32CD61C1AECE100596104 /* SuperLinAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				12A32D0F1C1AED8F00596104 /* SuperLinAlertView */,
+				12A32D0B1C1AED8900596104 /* bgImg.jpg */,
+				12A32D0C1C1AED8900596104 /* 提示@2x.png */,
 				12A32CDA1C1AECE100596104 /* AppDelegate.h */,
 				12A32CDB1C1AECE100596104 /* AppDelegate.m */,
 				12A32CDD1C1AECE100596104 /* ViewController.h */,
 				12A32CDE1C1AECE100596104 /* ViewController.m */,
-				12A32CE01C1AECE100596104 /* Main.storyboard */,
 				12A32CE31C1AECE100596104 /* Assets.xcassets */,
 				12A32CE51C1AECE100596104 /* LaunchScreen.storyboard */,
 				12A32CE81C1AECE100596104 /* Info.plist */,
@@ -138,6 +148,17 @@
 				12A32CFE1C1AECE100596104 /* Info.plist */,
 			);
 			path = SuperLinAlertViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		12A32D0F1C1AED8F00596104 /* SuperLinAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				12A32D101C1AED8F00596104 /* SuperLinAlertView.h */,
+				12A32D111C1AED8F00596104 /* SuperLinAlertView.m */,
+				12A32D121C1AED8F00596104 /* UIImage+Blur.h */,
+				12A32D131C1AED8F00596104 /* UIImage+Blur.m */,
+			);
+			path = SuperLinAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A32D0E1C1AED8900596104 /* 提示@2x.png in Resources */,
+				12A32D0D1C1AED8900596104 /* bgImg.jpg in Resources */,
 				12A32CE71C1AECE100596104 /* LaunchScreen.storyboard in Resources */,
 				12A32CE41C1AECE100596104 /* Assets.xcassets in Resources */,
-				12A32CE21C1AECE100596104 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +294,9 @@
 			files = (
 				12A32CDF1C1AECE100596104 /* ViewController.m in Sources */,
 				12A32CDC1C1AECE100596104 /* AppDelegate.m in Sources */,
+				12A32D151C1AED8F00596104 /* UIImage+Blur.m in Sources */,
 				12A32CD91C1AECE100596104 /* main.m in Sources */,
+				12A32D141C1AED8F00596104 /* SuperLinAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		12A32CE01C1AECE100596104 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12A32CE11C1AECE100596104 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12A32CE51C1AECE100596104 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +427,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SuperLinAlertViewDemo",
+				);
 				INFOPLIST_FILE = SuperLinAlertViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemo;
@@ -422,6 +442,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SuperLinAlertViewDemo",
+				);
 				INFOPLIST_FILE = SuperLinAlertViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CheerHi.SuperLinAlertViewDemo;
@@ -496,6 +520,7 @@
 				12A32D031C1AECE100596104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12A32D041C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				12A32D061C1AECE100596104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12A32D071C1AECE100596104 /* Build configuration list for PBXNativeTarget "SuperLinAlertViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				12A32D091C1AECE100596104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
