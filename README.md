@@ -1,3 +1,3 @@
 # SuperLinAlertViewDemo
 
-huo congcong is just shit！
+enjoy life,enjoy coding.
