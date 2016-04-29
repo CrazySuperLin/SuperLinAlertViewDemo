@@ -55,9 +55,9 @@
     
     //SuperLinAlertView 实例化 （使用方法） 注释掉的是没有实现毛玻璃效果的：参数blurBGImg设置为nil即可
     
-//    SuperLinAlertView *view = [[SuperLinAlertView alloc]initWithThemeImage:[UIImage imageNamed:@"提示.png"] contentStr:@"是否退出登录？" segOne:@"取消" segTwo:@"退出" blurBGImg:imgCancelBlurNormal actionType:MYAlertViewActionDefault];
+//    SuperLinAlertView *view = [[SuperLinAlertView alloc]initWithThemeImage:[UIImage imageNamed:@"提示.png"] contentStr:@"是否退出登录？" segOne:@"取消" segTwo:@"退出" blurBGImg:nil actionType:MYAlertViewActionDefault];
     
-    SuperLinAlertView *view = [[SuperLinAlertView alloc]initWithThemeImage:[UIImage imageNamed:@"提示.png"] contentStr:@"是否退出登录？" segOne:@"取消" segTwo:@"退出" blurBGImg:nil actionType:MYAlertViewActionExpo];
+    SuperLinAlertView *view = [[SuperLinAlertView alloc]initWithThemeImage:[UIImage imageNamed:@"提示.png"] contentStr:@"是否退出登录？" segOne:@"取消" segTwo:@"退出" blurBGImg:imgCancelBlurNormal actionType:MYAlertViewActionExpo];
     
     //两个按钮的回调
     
